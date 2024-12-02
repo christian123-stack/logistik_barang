@@ -107,5 +107,5 @@ function deleteBarang(username, index) {
 // Logout button event listener
 document.getElementById('logoutBtn').addEventListener('click', function() {
   localStorage.removeItem('currentUser');
-  window.location.href = 'login.html';  // Redirect ke halaman login setelah logout
+  window.location.href = 'index.html';  // Redirect ke halaman login setelah logout
 });
